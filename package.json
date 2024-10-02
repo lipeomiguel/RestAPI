@@ -1,10 +1,10 @@
 {
-  "name": "restapi",
+  "name": "rest-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,10 @@
     "url": "https://github.com/lipeomiguel/RestAPI/issues"
   },
   "homepage": "https://github.com/lipeomiguel/RestAPI#readme",
+  "description": "",
   "dependencies": {
-    "express": "^4.21.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.7",
-    "typescript": "^5.6.2"
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0"
   }
 }
